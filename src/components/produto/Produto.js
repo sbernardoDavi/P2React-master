@@ -6,7 +6,7 @@ export default function ProdutoCard({ produto }) {
     <Card>
       <Card.Img variant="top" src={produto.image} />
       <Card.Body className="text-center">
-        <Card.Subtitle>{product.name}</Card.Subtitle>
+        <Card.Subtitle>{produto.name}</Card.Subtitle>
         <Card.Text className="text-muted">
           <del>
             {produto.oldPrice.toLocaleString("pt-br", {
@@ -17,14 +17,14 @@ export default function ProdutoCard({ produto }) {
         </Card.Text>
         <Card.Title className="green">
           por{" "}
-          {produto.price.toLocaleString("pt-br", {
+          {produto.valorParcela.toLocaleString("pt-br", {
             style: "currency",
             currency: "BRL",
           })}
         </Card.Title>
         <Card.Text>
           Ou em até {produto.parcela.count}X de{" "}
-          {produto.parcela.value.toLocaleString("pt-br", {
+          {produto.parcela.valor.toLocaleString("pt-br", {
             style: "currency",
             currency: "BRL",
           })}
