@@ -1,5 +1,4 @@
 import { Card, Button } from "react-bootstrap";
-import "../cards/card.css";
 
 export default function ProdutoCard({ produto }) {
   return (

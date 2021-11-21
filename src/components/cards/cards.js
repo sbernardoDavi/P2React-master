@@ -1,6 +1,5 @@
 import { Component } from "react";
 import ProdutoCard from "../cards/card";
-import "../secaoCards/secaoCards.css";
 
 export default class SecaoProdutos extends Component {
   constructor(props) {
