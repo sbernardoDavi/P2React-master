@@ -3,9 +3,9 @@ import { Card, Button } from "react-bootstrap";
 export default function ProdutoCard({ produto }) {
   return (
     <Card>
-      <Card.Img variant="top" src={produto.image} />
+      <Card.Img variant="top" src={produto.imagemUrl} />
       <Card.Body className="text-center">
-        <Card.Subtitle>{produto.name}</Card.Subtitle>
+        <Card.Subtitle>{produto.nome}</Card.Subtitle>
         <Card.Text className="text-muted">
           <del>
             {produto.oldPrice.toLocaleString("pt-br", {
