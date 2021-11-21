@@ -1,0 +1,43 @@
+
+.divslide{
+    background-color: #011627;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.textoslide {
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 650px;
+    padding-bottom: 20px;
+
+}
+
+.textoslide > h1{
+    color: white;
+    padding-top: 50px;
+    margin-left: 300px;
+    font-size: 30px;
+
+}
+
+.imagemslide{
+    background-color:#2EC4B6;
+    background-repeat: round;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.imagemslide > img{
+    object-fit: cover;
+    object-position: 0 0;
+}

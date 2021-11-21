@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-right: 30px;
+    flex-wrap: wrap;
+    height: 70px;
+
+}
+
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.item{
+    
+    margin-left: 15px;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 200px;
+    padding: 10px;
+    min-width: 100px;
+    flex-wrap: wrap;
+}
+
+.minhaconta{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.textominhaconta{
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding-bottom: 6px;
+    flex-wrap: wrap;
+}
+
+.textominhaconta:hover{
+    color: #FFBB33;
+
+}
+
+
+.busca{
+    border-bottom: thin;
+    display: flex;
+    align-items: center;
+    border-style: none none solid none;
+    border-color: dimgrey;
+    align-items:  center;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.textobusca{
+    width: 30vw;
+    font-size: 14px;
+    color: dimgray;
+    align-items: center;
+}
+
+.imglupa{
+    padding-top: 10px;
+}
+
+.carrinho{
+    margin-right: 10px;
+
+}
+
+.brasil{
+    margin-left: 10px;
+
+
+}
+
+.gra{
+    margin-right: 50px;
+}
